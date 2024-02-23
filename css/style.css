@@ -16,20 +16,21 @@ body{
     
     
 }
-
-@media screen and (max-width:500px) {
-
-}
-    /*max width telas menores que alguma resolucao
+/*max width todas as telas menores que alguma resolucao
 */
 
+
+@media  (max-width:600px) {
+   
+
+}
 .container{
-    width: 80%;
-    margin:auto;
+    width: 100%;
+    margin:0;
     overflow: hidden;
     
-}
 
+}
 #showcase .container p{
 font-size: 25px;
 
@@ -81,7 +82,7 @@ header a{
 
 header li{
     float: left;
-    display: inline;
+    display: none;
     padding: 0 20px 0 20px ;
     
 }
@@ -130,7 +131,7 @@ header a:hover{
 
 }
  .text{
-    font-size: 40px;
+    font-size: 1.2rem;
 margin-top: auto; 
   margin-bottom: auto;
   text-shadow: 9px 9px 9px black;
