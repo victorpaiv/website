@@ -21,21 +21,10 @@ body{
 
 
 @media  (max-width:600px) {
-    .text
-        font-size: 1.2rem;
-    margin-top: auto; 
-      margin-bottom: auto;
-      text-shadow: 9px 9px 9px black;
-        -webkit-text-stroke-width: 0.9px;
-        -webkit-text-stroke-color: black;
-        .container
-            width: 100%;
-            margin:0;
-   
+  
 
-            #showcase .container p
-                font-size: 25px;
-                
+
+         
                 
                 
                 }
@@ -51,8 +40,9 @@ body{
                 ul{
                     margin: 0;
                     padding: 0;
+                    
                 }
-                
+                /* subscribe */
                 .button_1{
                     background-color: #e8491d;
                     height:38px ;
@@ -61,38 +51,44 @@ body{
                     padding-left: 20px;
                     padding-right: 20px;
                 }
-                
+                /*cabe;alho da pag*/
                 header{
-                    background: #030303;
-                    color:rgb(255,255,255);
+                    background: image("./background.jpg"no-repeat);
+                    color:rgb(7, 6, 6);
+                    font-size: 30px;
                     min-height:70px;
                     padding-top:30px;
                     border-bottom:#e8491d 3px solid;
+                    }
+                  
+
+
+
                     
-                }
                 
                 h1{
                     font-size: 5px;
                 }
                 
                 header a{
-                    color:white;
+                    color:rgb(2, 2, 2);
                     text-decoration: none;
                     text-transform: uppercase;
-                    font-size: 25px;
+                    font-size: 20px;
                 }
                 
                 header li{
                     float: left;
-                    display: none;
+                    display: inline;
                     padding: 0 20px 0 20px ;
-                    
+                
                 }
                 
                 header nav{
                     float: right;
                     margin-top: 10px;
                 }
+                
                 
                 header #branding{
                     float:left;
@@ -101,16 +97,16 @@ body{
                 }/* the class i call with the . dote , and the id i call with d #.*/
                 
                 header .highlight, header .current a{
-                    color: #e8491d;
+                    color: #f33b09;
                     font-weight: bold;
-                    font-size: 25px;
+                    font-size: 22px;
                     
                 }
                 
                 
-                
+                /*color efect when pass mouse*/
                 header a:hover{
-                    color: #f19c9c;
+                    color: #f10b0b;
                     font-weight: bold;
                 }
                 
@@ -212,7 +208,17 @@ body{
 
 
 
-
+                .text { 
+                    text-decoration: none;
+                    font-size: 25px;
+                    text-shadow: 15px 15px 15px color black;
+                    text-transform: uppercase;
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: black;
+                    color: #eceaea;
+                
+                }
+                
 
 
 
