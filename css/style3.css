@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fjalla+One&family=Oswald&display=swap');
 body{ 
     background-image:url("./background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
    /* font-family: Arial, Helvetica, sans-serif; Font type*/
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Oswald', sans-serif;
@@ -51,13 +53,15 @@ ul{
     padding-left: 20px;
     padding-right: 20px;
 }
-
+/*web disign e cabecalho*/
 header{
-    background: image("./background.jpg"no-repeat);
-    color:rgb(7, 6, 6);
+    
+    color:rgb(248, 23, 23);
+    font-size: 30px;
     min-height:70px;
     padding-top:30px;
-    border-bottom:#e8491d 3px solid;
+    border-bottom:#070707 3px solid;
+    text-align: justify;
 
 }
 
@@ -66,10 +70,11 @@ h1{
 }
 
 header a{
-    color:rgb(2, 2, 2);
+    color:rgb(3, 3, 3);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
+    text-align: justify;
 }
 
 header li{
@@ -91,9 +96,10 @@ header #branding{
 }/* the class i call with the . dote , and the id i call with d #.*/
 
 header .highlight, header .current a{
-    color: #e8491d;
+    color: #0c0c0c;
     font-weight: bold;
-
+    font-size: 22px;
+    text-align: justify;
 }
 
 
@@ -107,7 +113,6 @@ header a:hover{
     height: 400px;
     text-align: center;
     color:rgb(245, 237, 237);
-    background:url("./background.jpg") no-repeat center;
     background-size: auto;
     text-shadow: 3px 3px 5px black;
  

@@ -55,15 +55,16 @@ body{
                     padding-right: 20px;
                     
                 }
-                /*cabe;alho da pag*/
+                /*cabe;alho da pag palavra web*/
                 header{
-                    background-repeat: no-repeat;
+                    
                    
                     color:rgb(248, 23, 23);
                     font-size: 30px;
                     min-height:70px;
                     padding-top:30px;
                     border-bottom:#070707 3px solid;
+                    text-align: justify;
                     
 
 
@@ -80,10 +81,12 @@ body{
                 }
                 /*texto menu*/
                 header a{
-                    color:rgb(3, 3, 3);
+                    color:rgb(7, 7, 7);
                     text-decoration: none;
                     text-transform: uppercase;
                     font-size: 20px;
+                    text-align: justify;
+                  
                 }
                 
                 header li{
@@ -106,9 +109,10 @@ body{
                 }/* the class i call with the . dote , and the id i call with d #.*/
                 
                 header .highlight, header .current a{
-                    color: #f33b09;
+                    color: #0c0c0c;
                     font-weight: bold;
                     font-size: 22px;
+                    text-align: justify;
                     
                 }
                 
@@ -117,14 +121,13 @@ body{
                 header a:hover{
                     color: #f10b0b;
                     font-weight: bold;
+                    text-align:justify;
                 }
                 
                 #showcase{ 
                     height: 400px;
                     text-align: center;
                     color:rgb(251, 246, 246);
-                    
-                    background-repeat: no-repeat;
                     background-size: auto;
                     background-position: center;
                     text-shadow: 2px 2px 5px black;
