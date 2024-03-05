@@ -1,12 +1,11 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fjalla+One&family=Oswald&display=swap');
-
-
-
-
 body{ 
-    background-image:url("./background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; 
+    background-image:url("./background.jpg"); 
+    background-repeat: no-repeat,center;
+    background-size: cover;
+
    /* font-family: Arial, Helvetica, sans-serif; Font type*/
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Oswald', sans-serif;
@@ -14,197 +13,229 @@ body{
     line-height: 1.5; /* hight Line*/
     padding: 0; /* Padding is used to create space around an element's content, inside of any defined borders.*/
     margin: 0;
-    background-color: rgb(244, 244, 240);
+    background-color: rgb(1, 1, 0);
     text-align: center;
-}
 
-@media  (max-width:600px) {
+    
+    
+}
+/*max width todas as telas menores que alguma resolucao
+*/
+
+
+@media  (max-width:700px) and (min-width:400px)               {
   
 
 
          
                 
                 
-}
-
-a{
-    text-decoration: none;
-    }
-  
-  a:hover{
-    text-decoration: underline;
-    }
-
-
-
-.container{
-    width: 80%;
-    margin:auto;
-    overflow: hidden;
-}
-
-#showcase .container p{
-font-size: 30px;
-
-
-
-}
-
-
-
-
-
-ul{
-    margin: 0;
-    padding: 0;
-}
-/* sbuscribe*/
-.button_1{
-    background-color: #f33d0a;
-    height:38px ;
-    color: white;
-    border: none;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-header{
-   
-    color:rgb(248, 23, 23);
-    font-size: 30px;
-    min-height:70px;
-    padding-top:30px;
-    border-bottom:#070707 3px solid;
-    text-align: justify;
-
-}
-
-h1{
-    font-size: 16px;
-}
-/*menu botons*/
-header a{
-    color:rgb(7, 7, 7);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-    text-align: justify;
-}
-
-header li{
-    float: left;
-    display: inline;
-    padding: 0 20px 0 20px ;
-
-}
-
-header nav{
-    float: right;
-    margin-top: 10px;
-}
-
-header #branding{
-    float:left;
-    
-    
-}/* the class i call with the . dote , and the id i call with d #.*/
-
-header .highlight, header .current a{
-    color: #0c0c0c;
-    font-weight: bold;
-    font-size: 22px;
-    text-align: justify;
-    
-
-}
+                }
+                .container h1{
+                
+                font-size: 30px;
+                
+                }
+                
+                
+                
+                
+                ul{
+                    margin: 0;
+                    padding: 0;
+                    
+                }
+                /* subscribe */
+                .button_1{
+                    background-color: #e8491d;
+                    height:38px ;
+                    color: white;
+                    border: none;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    
+                }
+                /*cabe;alho da pag palavra web*/
+                header{
+                    
+                   
+                    color:rgb(248, 23, 23);
+                    font-size: 30px;
+                    min-height:70px;
+                    padding-top:30px;
+                    border-bottom:#070707 3px solid;
+                    text-align: justify;
+                    
 
 
 
-header a:hover{
-    color: #fd1717;
-    font-weight: bold;
-    font-size: 15px;
-    text-decoration: none;
-}
-
-#showcase{ 
-    height: 500px;
-    text-align: center;
-    color:rgb(249, 246, 246);
-   
-    background-size: auto;
-    text-shadow: 2px 2px 5px black;
-
-}
-#showcase h1{
-    font-size: 55px;
-    margin-top: 100px;
-    color: #fe0606;
-}
-#showcase p{
-
-font: size 18px; 
-
-}
-#newsletter{
-background-color: #080808;
-padding:15px ;
-color: white;
-
-
-}
+                    }
+                  
 
 
 
+                    
+                
+                h1{
+                    font-size: 5px;
+                }
+                /*texto menu*/
+                header a{
+                    color:rgb(7, 7, 7);
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    text-align: justify;
+                  
+                }
+                
+                header li{
+                    float: left;
+                    display: inline;
+                    padding: 0 20px 0 20px ;
+                
+                }
+                
+                header nav{
+                    float: right;
+                    margin-top: 10px;
+                }
+                
+                
+                header #branding{
+                    float:left;
+                    
+                    
+                }/* the class i call with the . dote , and the id i call with d #.*/
+                
+                header .highlight, header .current a{
+                    color: #0c0c0c;
+                    font-weight: bold;
+                    font-size: 22px;
+                    text-align: justify;
+                    
+                }
+                
+                
+                /*color efect when pass mouse*/
+                header a:hover{
+                    color: #f10b0b;
+                    font-weight: bold;
+                    text-align:justify;
+                }
+                
+                #showcase{ 
+                    height: 400px;
+                    text-align: center;
+                    color:rgb(251, 246, 246);
+                    background-size: auto;
+                    background-position: center;
+                    text-shadow: 2px 2px 5px black;
+                
+                }
+                #showcase h1{
+                    font-size: 55px;
+                    margin-top: 50px;
+                    text-shadow: 9px 9px 9px black;
+                    -webkit-text-stroke-width: 0.1px;
+                    -webkit-text-stroke-color: black;
+                
+                }
+                
+                   
+                   
+                
+                #newsletter{
+                background-color: #080808;
+                padding:15px ;
+                color: white;
+                
+                
+                }
+                
+                
+                
+                
+                #newsletter h1{
+                float: left;
+                
+                }
+                #newsletter form {
+                
+                float :right ;
+                margin-top: 8px;
+                
+                
+                }
+                
+                #newsletter input[type="email"] {
+                height: 25px;
+                width: 250px;
+                padding: 5px;
+                
+                
+                }
+                .boxes{
+                margin-top: 25px;
+                }
+                .boxes .box{
+                width: 33.33%;
+                float: left;
+                text-align: center;
+                }
+                .boxes .box p{
+                text-align: justify;
+                padding: 20px;
+                font-size: 20px;
+                }
+                .boxes .box img{
+                height: 60px;
+                
+                }
+                
+                footer{
+                background-color: #fdec02;
+                height: 30px;
+                text-align: center;
+                color: white;
+                
+                }
+                footer p {
+                
+                padding-top: 8px;
+                color: #f5f0ee;
+                
+                
+                }
+                
+                .git { 
+                    text-decoration: none;
+                    font-size: 30px;
+                    text-shadow: 15px 15px 15px color black;
+                    text-transform: uppercase;
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: black;
+                    color: #e8491d;
+                
+                }
+                
 
-#newsletter h1{
-float: left;
-
-}
-#newsletter form {
-
-float :right ;
-margin-top: 8px;
 
 
-}
-
-#newsletter input[type="email"] {
-height: 25px;
-width: 250px;
-padding: 5px;
-}
-.boxes{
-margin-top: 25px;
-}
-.boxes .box{
-width: 33.33%;
-float: left;
-text-align: center;
-}
-.boxes .box p{
-text-align: justify;
-padding: 20px;
-font-size: 20px;
-}
-.boxes .box img{
-height: 60px;
-
-}
-
-footer{
-background-color: #e8491d;
-height: 30px;
-text-align: center;
-color: white;
-
-}
-footer p {
-
-padding-top: 8px;
+                .text { 
+                    text-decoration: none;
+                    font-size: 25px;
+                    text-shadow: 15px 15px 15px color black;
+                    text-transform: uppercase;
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: black;
+                    color: #eceaea;
+                
+                }
+                
 
 
-}
+
 
 
 
