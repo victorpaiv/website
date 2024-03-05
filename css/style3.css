@@ -12,6 +12,14 @@ body{
     text-align: center;
 }
 
+@media  (max-width:600px) {
+  
+
+
+         
+                
+                
+}
 
 .container{
     width: 80%;
@@ -45,8 +53,8 @@ ul{
 }
 
 header{
-    background: #0c0c0c;
-    color:rgb(255,255,255);
+    background: image("./background.jpg"no-repeat);
+    color:rgb(7, 6, 6);
     min-height:70px;
     padding-top:30px;
     border-bottom:#e8491d 3px solid;
@@ -58,7 +66,7 @@ h1{
 }
 
 header a{
-    color:white;
+    color:rgb(2, 2, 2);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
@@ -98,20 +106,29 @@ header a:hover{
 #showcase{ 
     height: 400px;
     text-align: center;
-    color:rgb(4, 4, 4);
+    color:rgb(245, 237, 237);
     background:url("./background.jpg") no-repeat center;
     background-size: auto;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 3px 3px 5px black;
+ 
 
 }
-#showcase h1{
+#showcase .container h1{
     font-size: 55px;
     margin-top: 100px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
 
 }
-#showcase p{
 
-font: size 18px; 
+#showcase .container p{
+    font-size: 35px;
+    margin-top: 50px;
+   text-shadow: 4px 4px 6px black;
+   -webkit-text-stroke-width: 0.1px;
+   -webkit-text-stroke-color: rgb(7, 7, 7);
+
+ 
 
 }
 #newsletter{

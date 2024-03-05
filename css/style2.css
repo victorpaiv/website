@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fjalla+One&family=Oswald&display=swap');
+
+
+
+
 body{ 
     background-image:url("./background.jpg"); 
    /* font-family: Arial, Helvetica, sans-serif; Font type*/
@@ -10,6 +14,15 @@ body{
     margin: 0;
     background-color: rgb(244, 244, 240);
     text-align: center;
+}
+
+@media  (max-width:600px) {
+  
+
+
+         
+                
+                
 }
 
 a{
@@ -43,9 +56,9 @@ ul{
     margin: 0;
     padding: 0;
 }
-
+/* sbuscribe*/
 .button_1{
-    background-color: #e8491d;
+    background-color: #f33d0a;
     height:38px ;
     color: white;
     border: none;
@@ -54,8 +67,8 @@ ul{
 }
 
 header{
-    background: #080708;
-    color:rgb(255,255,255);
+    background: image("./background.jpg"no-repeat);
+    color:rgb(7, 6, 6);
     min-height:70px;
     padding-top:30px;
     border-bottom:#e8491d 3px solid;
@@ -65,9 +78,9 @@ header{
 h1{
     font-size: 16px;
 }
-
+/*menu botons*/
 header a{
-    color:white;
+    color:rgb(5, 5, 5);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
@@ -92,8 +105,9 @@ header #branding{
 }/* the class i call with the . dote , and the id i call with d #.*/
 
 header .highlight, header .current a{
-    color: #e8491d;
+    color: #f70b0b;
     font-weight: bold;
+    
 
 }
 
@@ -102,6 +116,7 @@ header .highlight, header .current a{
 header a:hover{
     color: #f19c9c;
     font-weight: bold;
+    font-size: 15px;
 }
 
 #showcase{ 
@@ -183,5 +198,6 @@ padding-top: 8px;
 
 }
 
-h2 { text-decoration: none;
-}
+
+
+
